@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mysql-database:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: RTYacD14!X*/*
+      MYSQL_DATABASE: agendamento1
+    ports:
+    - 3306:3306
